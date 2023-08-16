@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1041.0" style="-fx-background-color: #e6ffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isep.triofinal.Launching">
+   <children>
+      <Label alignment="CENTER" layoutX="416.0" layoutY="47.0" text="Jouer à Triovision " textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="102.0" prefHeight="109.0" prefWidth="1002.0" text="Principe du jeu&#10;Le jeu se compose du plateau de jeu, 8 pions et de 12 cartes répartient autour du plateau.&#10;Il s'agit de voir comment on peut reproduire la figure d'une des 12 cartes en bougeant un seul pion sur le plateau. &#10;Chaque bon déplacement fait gagner la carte qui a servi de modèle. &#10;Ce n'est pas facile parce que les pions bougent, parce qu'il faut se repérer dans l'espace, mais on ne peut pas s'arrêter de jouer !&#10;Un casse-tête immédiatement compréhensible qui fait travailler la concentration et l'orientation dans l'espace." />
+      <ImageView fitHeight="280.0" fitWidth="304.0" layoutX="374.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BU-127753-0-FV-BAU-GR.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="446.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="135.0" text="JOUER" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="841.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1200px-Institut_supérieur_d'électronique_de_Paris.svg.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

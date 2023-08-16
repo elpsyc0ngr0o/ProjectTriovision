@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: #FFFAF0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isep.triofinal.Trio">
+   <children>
+      <HBox alignment="CENTER" prefHeight="479.0" prefWidth="265.0">
+         <children>
+            <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+               <children>
+                  <StackPane>
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                        <GridPane fx:id="card5" prefHeight="150.0" prefWidth="100.0">
+                           <children>
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </StackPane>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="BOTTOM_RIGHT" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+               <children>
+                  <StackPane>
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                        <GridPane fx:id="card4" prefHeight="150.0" prefWidth="100.0">
+                           <children>
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </StackPane>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+            <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+               <children>
+                  <StackPane>
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                        <GridPane fx:id="card6" prefHeight="150.0" prefWidth="100.0">
+                           <children>
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                              <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </StackPane>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="720.0" prefWidth="300.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="180.0" prefWidth="199.0">
+               <children>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card1" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card2" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card3" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" prefHeight="300.0" prefWidth="300.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Circle fill="DODGERBLUE" opacity="0.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <HBox alignment="CENTER" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card10" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card11" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card12" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="363.0" prefWidth="257.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="49.0" prefWidth="3.0">
+               <children>
+                  <Label fx:id="player1Label" text="Vous">
+                     <font>
+                        <Font name="Tamil MN" size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="33.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="pointsP1" text="Total de points = 0">
+                     <font>
+                        <Font name="Tamil Sangam MN" size="24.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <HBox fillHeight="false" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card8" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane>
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card9" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="120.0">
+                     <children>
+                        <StackPane minHeight="-Infinity" minWidth="-Infinity">
+                           <children>
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000045" height="150.0" stroke="TRANSPARENT" strokeType="INSIDE" width="100.0" />
+                              <GridPane fx:id="card7" prefHeight="150.0" prefWidth="100.0">
+                                 <children>
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                    <Circle fill="#1f93ff00" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="185.0" />
+               </VBox.margin>
+            </HBox>
+            <Label prefHeight="30.0" prefWidth="334.0" text="FLECHE ↑ = 1 déplacement" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="20.0" top="150.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Tamil MN" size="24.0" />
+               </font>
+            </Label>
+            <Label text="FLECHE ↓ = 2 déplacements">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Tamil MN" size="24.0" />
+               </font>
+            </Label>
+         </children></VBox>
+      <ImageView fitHeight="101.0" fitWidth="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1200px-Institut_supérieur_d'électronique_de_Paris.svg.png" />
+         </image>
+         <FlowPane.margin>
+            <Insets left="20.0" top="-200.0" />
+         </FlowPane.margin>
+      </ImageView>
+   </children>
+</FlowPane>
